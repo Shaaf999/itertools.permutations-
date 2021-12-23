@@ -1,3 +1,18 @@
+#method 1
+import itertools
+from itertools import combinations
+sk=input().split()
+s=sk[0] #string in 0
+k=int(sk[1]) # k(integer) in 1
+
+words=list(itertools.permutations(sorted(s),k))
+for i in words:
+    for j in i:
+        print(j, end='')
+    print()  
+    
+    
+# method 2
 s,k = input().split()
 
 from itertools import permutations
