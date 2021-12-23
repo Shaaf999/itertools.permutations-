@@ -1,0 +1,7 @@
+s,k = int(innput())
+i
+from itertools import permutations
+wrds=list(permutations(s,int(k)) # int (k) is the input number size of permutation here
+wrds.sort()  # to  print in lexographic order 
+for i in wrds:
+    print(*words, sep='')  # to remove string repetition using a tuple
